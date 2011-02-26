@@ -7,7 +7,7 @@ example:
 <script src="canvaslib-.js"></script>
 var canvas;
 onload = function(){
-	canvas = new canvasDraw('canvas-id');
+	canvas = new canvaslib('canvas-id');
 };
 
 

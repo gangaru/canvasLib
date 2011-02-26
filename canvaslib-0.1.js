@@ -1,4 +1,4 @@
-var canvasDraw = function(id) {
+var canvaslib = function(id) {
 	var c = document.getElementById(id);
 	if (!c || !c.getContext) {
 		return false;
@@ -8,7 +8,7 @@ var canvasDraw = function(id) {
 	this.canvas.beginPath();
 };
 
-canvasDraw.prototype = {
+canvaslib.prototype = {
 	save : function() {
 		this.canvas.save();
 	},
